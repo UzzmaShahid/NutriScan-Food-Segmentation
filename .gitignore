@@ -1,0 +1,42 @@
+
+
+# 1. Large Model Weights & Checkpoints (CRITICAL)
+
+fine_tuned_food_model/
+*.safetensors
+*.bin
+*.pth
+*.pt
+archive (1).zip
+archive (1)/
+
+# 2. Local Python Virtual Environments
+
+venv/
+ENV/
+env/
+.env
+
+# 3. Python Compilation & Cache Junk
+
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# 4. Datasets & Testing Media
+
+dataset/
+test_images/
+
+# 5. OS and IDE Specific Junk
+# ------------------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 6. Generated Output Records
+# ------------------------------------------
+# Keeps your local generated PDF logs private
+*.pdf
